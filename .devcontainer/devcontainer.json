@@ -1,0 +1,23 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ritwickdey.liveserver",
+				"GitHub.codespaces",
+				"mhutchie.git-graph"
+			],
+			"settings": {
+				"gitlens.showWelcomeOnInstall" :false
+			}
+		},
+		"codespaces": {
+		}
+	},
+	"updateContentCommand": {
+	},
+	"containerEnv": {
+	}
+}
